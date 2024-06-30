@@ -1,0 +1,119 @@
+:root{
+ --foreground: #62c4fa;
+ --background: #48a7bd;
+
+ --timerBackground: #EEEEEE;
+}
+
+.dark-mode-toggle{
+    cursor: pointer;
+    border: 0;
+    width: 50px;
+}
+.darkmode {
+--foreground: gray;
+--background: black;
+}
+
+*{
+    font-family: helvetica;
+    
+}
+
+#nav{
+    background-color: var(--foreground);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2.5rem  0 2.5rem;
+}
+
+img{
+    width: 50px;
+    cursor: pointer;
+}
+
+#header-actions{
+    
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color: var(--background);
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin:0;
+    
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    background-color: aquamarine;
+    border-bottom: #3645ec solid 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pomodoro{
+    background-color: white;   
+}
+li:hover{
+    background-color: #62c4fa;
+    color: white;
+}
+
+#timer-container{
+    text-align: center;
+    background-color: var(--timerBackground);
+    width: 400px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 15%;
+}
+
+h1{
+    color: white;
+    font-size: 125px;
+    padding: 25px;
+    margin: 0;
+    text-decoration:underline;
+}
+
+#timerButton{
+    background-color: white;
+    border: 0;
+    padding: 20px 50px;
+    margin-bottom: 5%;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: gray solid 4px;
+}
+
+#timerButton:hover{
+    background-color: lightgray;
+    color: white;
+}
+
+
+#description{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: var(--foreground);
+    width: 100%;
+    bottom: 0px;
+    position: fixed;
+}
